@@ -1,55 +1,81 @@
 
-# 🏋️ Personal Fitness Tracker  
+# 🏋️ Personal Fitness Tracker
 
-## 📌 Introduction  
-**Personal Fitness Tracker** is a user-friendly application designed to help individuals **track their fitness journey, set goals, monitor progress, and stay motivated**. Whether you're working on weight loss, muscle gain, or general health improvement, this tracker provides an organized way to **log workouts, track nutrition, and analyze performance** over time.  
+A lightweight fitness tracking tool to help users **monitor workouts, track calories, and analyze progress** using clean Python code and CSV-based datasets.
 
-## 🚀 Features  
-- 📅 **Workout Logging** – Record daily exercises with details like duration, intensity, and type.  
-- 🏆 **Goal Setting** – Define fitness goals (weight loss, muscle gain, endurance) and track progress.  
-- 📊 **Performance Analytics** – Visualize progress through interactive graphs and reports.  
-- 🥗 **Nutrition Tracking** – Log daily meals and monitor calorie intake.  
-- 🔔 **Reminders & Notifications** – Stay on track with reminders for workouts and meal plans.  
-- 📱 **Responsive UI** – Designed for both **desktop & mobile users**.  
+---
 
-## 🛠️ Tech Stack  
-- **Frontend:** HTML5, CSS3, JavaScript (React/Vue/Angular)  
-- **Backend:** Node.js / Python (Flask/Django)  
-- **Database:** MongoDB / PostgreSQL / Firebase  
-- **Authentication:** JWT / OAuth  
-- **Hosting:** Vercel / Heroku / Firebase Hosting  
+## 📁 Project Files
 
-## 🎯 How to Use  
-### 1️⃣ Clone the Repository  
-```sh
-git clone https://github.com/yourusername/Personal_Fitness_Tracker.git
-cd Personal_Fitness_Tracker
 ```
-### 2️⃣ Install Dependencies  
-```sh
-npm install   # If using Node.js
-pip install -r requirements.txt  # If using Python
-```
-### 3️⃣ Run the Application  
-```sh
-npm start  # For frontend
-python app.py  # If using Flask/Django backend
-```
-### 4️⃣ Open in Browser  
-```
-http://localhost:3000
+Personal_Fitness_Tracker/
+├── app.py                     # Main application script
+├── calories.csv               # Calorie data for exercises
+├── exercise.csv               # User workout logging data
+├── fitness_tracker.ipynb      # Jupyter notebook version for exploration
+├── AICTE_Internship_Project_Report.pdf  # Project report (PDF)
+├── LICENSE                    # MIT License
+└── README.md                  # Project documentation
 ```
 
-## 🎨 Screenshots  
-🚀 *(Add some images of your application UI here!)*  
+---
 
-## 🤝 Contributing  
-Contributions are welcome! Feel free to submit a **Pull Request** or open an **Issue**.  
+## ✨ Features
 
-## 📝 License 
-This project is licensed under the **MIT License**.  
+* 📅 Log exercises with type, duration, and calories burned
+* 🧮 Calculate total daily calories burned using CSV data
+* 📊 View personalized fitness stats and summaries
+* 📈 Simple analytics via Jupyter notebook (`fitness_tracker.ipynb`)
+* 📂 Local storage using CSVs (easy to update and portable)
 
-## 📬 Contact  
-📧 **Email:** [amanantuley@gmail.com](mailto:amanantuley@gmail.com)  
-🐦 **Twitter:** [@amanantuley](https://twitter.com/amanantuley)  
-🔗 **LinkedIn:** [Aman Antuley](https://linkedin.com/in/amanantuley)  
+---
+
+## 🛠 Tech Stack
+
+* 🐍 **Python** (pandas, matplotlib)
+* 📗 **CSV-based Storage** for calorie and workout records
+* 📓 **Jupyter Notebook** for quick visualizations
+* 🖥️ **Flask** (optional, for extending with a web interface)
+
+---
+
+## 🚀 How to Run
+
+### 📌 Option 1: Using the Notebook
+
+```bash
+# Open the notebook
+jupyter notebook fitness_tracker.ipynb
+```
+
+### 📌 Option 2: Using Python Script
+
+```bash
+python app.py
+```
+
+*(Ensure you have all dependencies installed: `pandas`, etc.)*
+
+---
+
+## 📊 Dataset Details
+
+| File           | Description                           |
+| -------------- | ------------------------------------- |
+| `calories.csv` | Predefined calorie data for exercises |
+| `exercise.csv` | User's logged exercises over time     |
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+## 📬 Contact
+
+* 📧 Email: [amanantuley@gmail.com](mailto:amanantuley@gmail.com)
+* 🐦 Twitter: [@amanantuley](https://twitter.com/amanantuley)
+* 🔗 LinkedIn: [Aman Antuley](https://linkedin.com/in/amanantuley)
+
